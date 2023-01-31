@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans',sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600&display=swap');
+
+
+html,body {
+    height: 100%;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    padding: 30px 2%;
+    background-image: linear-gradient(to top right,black,rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to top right,red,orange);
+    padding: 0 2% 80px 2%;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+header a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 16px 50px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+}
+
+header a:hover {
+    background-color: rgb(165, 77, 248);
+    box-shadow: 0 0 10px rgba(137, 43, 226, 0.521);
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+
+.box_wraper {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 2% 0 2%;
+}
+
+.wraper_footer {
+    text-align: center;
+}
+
+footer .wraper_footer a {
+    text-decoration: none;
+    padding: 14px 50px;
+    border-radius: 10px;
+    background-color: rgb(17, 220, 20);
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+    text-align: center;
+}
+
+footer .wraper_footer a:hover {
+    background-color: rgb(47, 244, 50);
+    box-shadow: 0 0 10px rgba(17, 220, 20, 0.506);
+}
+
+.wraper_footer p {
+    color: rgb(78, 78, 78);
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header h1 {
+
+        font-size: 30px;
+
+    }
+}
